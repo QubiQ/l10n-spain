@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <data>
         <record id="mis_report_es_balance_abreviado" model="mis.report">
             <field name="name">Balance abreviado (PGCE 2008)</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_base"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_base"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -16,12 +15,12 @@
             <field name="name">es11000</field>
             <field name="description">A) ACTIVO NO CORRIENTE</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
             <field
-                name="expression"
-            > +es11100 +es11200 +es11300 +es11400 +es11500 +es11600 +es11700</field>
+            name="expression"
+        > +es11100 +es11200 +es11300 +es11400 +es11500 +es11600 +es11700</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11100" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -33,13 +32,13 @@
             <field name="expression">+bale[20%,280%,290%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11200" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -51,13 +50,13 @@
             <field name="expression">+bale[21%,281%,291%,23%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11300" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -69,13 +68,13 @@
             <field name="expression">+bale[22%,282%,292%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11400" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -84,20 +83,20 @@
             <field name="sequence">50</field>
             <field name="name">es11400</field>
             <field
-                name="description"
-            >IV. Inversiones en empresas del grupo y asociadas a largo plazo</field>
+            name="description"
+        >IV. Inversiones en empresas del grupo y asociadas a largo plazo</field>
             <field
-                name="expression"
-            >+bale[2403%,2404%,2413%,2414%,2423%,2424%,2493%,2494%,293%,2943%,2944%,2953%,2954%]</field>
+            name="expression"
+        >+bale[2403%,2404%,2413%,2414%,2423%,2424%,2493%,2494%,293%,2943%,2944%,2953%,2954%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11500" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -107,17 +106,17 @@
             <field name="name">es11500</field>
             <field name="description">V. Inversiones financieras a largo plazo</field>
             <field
-                name="expression"
-            >+bale[2405%,2415%,2425%,2495%,250%,251%,252%,253%,254%,255%,257%,258%,259%,26%,2945%,2955%,297%,298%]</field>
+            name="expression"
+        >+bale[2405%,2415%,2425%,2495%,250%,251%,252%,253%,254%,255%,257%,258%,259%,26%,2945%,2955%,297%,298%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11600" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -129,13 +128,13 @@
             <field name="expression">+bale[474%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_11700" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -147,13 +146,13 @@
             <field name="expression">+bale[11700%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -163,12 +162,12 @@
             <field name="name">es12000</field>
             <field name="description">B) ACTIVO CORRIENTE</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
             <field
-                name="expression"
-            > +es12100 +es12200 +es12300 +es12400 +es12500 +es12600 +es12700</field>
+            name="expression"
+        > +es12100 +es12200 +es12300 +es12400 +es12500 +es12600 +es12700</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12100" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -177,18 +176,18 @@
             <field name="sequence">100</field>
             <field name="name">es12100</field>
             <field
-                name="description"
-            >I. Activos no corrientes mantenidos para la venta</field>
+            name="description"
+        >I. Activos no corrientes mantenidos para la venta</field>
             <field name="expression">+bale[580%,581%,582%,583%,584%,599%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12200" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -200,13 +199,13 @@
             <field name="expression">+bale[30%,31%,32%,33%,34%,35%,36%,39%,407%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12300" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -215,12 +214,12 @@
             <field name="sequence">120</field>
             <field name="name">es12300</field>
             <field
-                name="description"
-            >III. Deudores comerciales y otras cuentas a cobrar</field>
+            name="description"
+        >III. Deudores comerciales y otras cuentas a cobrar</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
             <field name="expression"> +es12380 +es12370 +es12390</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12380" model="mis.report.kpi">
@@ -230,20 +229,20 @@
             <field name="sequence">130</field>
             <field name="name">es12380</field>
             <field
-                name="description"
-            >1. Clientes por ventas y prestaciones de servicios</field>
+            name="description"
+        >1. Clientes por ventas y prestaciones de servicios</field>
             <field
-                name="expression"
-            >+bale[430%,431%,432%,433%,434%,435%,436%,437%,490%,493%] +es12381 +es12382</field>
+            name="expression"
+        >+bale[430%,431%,432%,433%,434%,435%,436%,437%,490%,493%] +es12381 +es12382</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12381" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -252,18 +251,18 @@
             <field name="sequence">140</field>
             <field name="name">es12381</field>
             <field
-                name="description"
-            >a) Clientes por ventas y prestaciones de servicios a largo plazo</field>
+            name="description"
+        >a) Clientes por ventas y prestaciones de servicios a largo plazo</field>
             <field name="expression">+bale[12381%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12382" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -272,18 +271,18 @@
             <field name="sequence">150</field>
             <field name="name">es12382</field>
             <field
-                name="description"
-            >b) Clientes por ventas y prestaciones de servicios a corto plazo</field>
+            name="description"
+        >b) Clientes por ventas y prestaciones de servicios a corto plazo</field>
             <field name="expression">+bale[12382%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12370" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -292,18 +291,18 @@
             <field name="sequence">160</field>
             <field name="name">es12370</field>
             <field
-                name="description"
-            >2. Accionistas (socios) por desembolsos exigidos</field>
+            name="description"
+        >2. Accionistas (socios) por desembolsos exigidos</field>
             <field name="expression">+bale[5580%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12390" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -313,17 +312,17 @@
             <field name="name">es12390</field>
             <field name="description">3. Otros deudores</field>
             <field
-                name="expression"
-            >+bale[44%,460%,470%,471%,472%,473%,5531%,5533%,544%]</field>
+            name="expression"
+        >+bale[44%,460%,470%,471%,472%,473%,5531%,5533%,544%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12400" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -332,20 +331,20 @@
             <field name="sequence">180</field>
             <field name="name">es12400</field>
             <field
-                name="description"
-            >IV. Inversiones en empresas del grupo y asociadas a corto plazo</field>
+            name="description"
+        >IV. Inversiones en empresas del grupo y asociadas a corto plazo</field>
             <field
-                name="expression"
-            >+bale[5303%,5304%,5313%,5314%,5323%,5324%,5333%,5334%,5343%,5344%,5353%,5354%,5393%,5394%,593%,5943%,5944%,5953%,5954%] + pbale[5523%] + pbale[5524%]</field>
+            name="expression"
+        >+bale[5303%,5304%,5313%,5314%,5323%,5324%,5333%,5334%,5343%,5344%,5353%,5354%,5393%,5394%,593%,5943%,5944%,5953%,5954%] + pbale[5523%] + pbale[5524%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12500" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -355,17 +354,17 @@
             <field name="name">es12500</field>
             <field name="description">V. Inversiones financieras a corto plazo</field>
             <field
-                name="expression"
-            >+bale[5305%,5315%,5325%,5335%,5345%,5355%,5395%,540%,541%,542%,543%,545%,546%,547%,548%,549%,5590%,5593%,565%,566%,5945%,5955%,597%,598%] + pbale[551%] + pbale[5525%]</field>
+            name="expression"
+        >+bale[5305%,5315%,5325%,5335%,5345%,5355%,5395%,540%,541%,542%,543%,545%,546%,547%,548%,549%,5590%,5593%,565%,566%,5945%,5955%,597%,598%] + pbale[551%] + pbale[5525%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12600" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -377,13 +376,13 @@
             <field name="expression">+bale[480%,567%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_12700" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -392,18 +391,18 @@
             <field name="sequence">210</field>
             <field name="name">es12700</field>
             <field
-                name="description"
-            >VII. Efectivo y otros activos líquidos equivalentes</field>
+            name="description"
+        >VII. Efectivo y otros activos líquidos equivalentes</field>
             <field name="expression">+bale[57%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_10000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -415,13 +414,13 @@
             <field name="expression">+es11000+es12000</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_20000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -431,9 +430,9 @@
             <field name="name">es20000</field>
             <field name="description">A) PATRIMONIO NETO</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
             <field name="expression"> +es21000 +es22000 +es23000</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21000" model="mis.report.kpi">
@@ -444,12 +443,12 @@
             <field name="name">es21000</field>
             <field name="description">A-1) Fondos propios</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l2"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l2"
+        />
             <field
-                name="expression"
-            > +es21100 +es21200 +es21300 +es21400 +es21500 +es21600 +es21700 +es21800 +es21900</field>
+            name="expression"
+        > +es21100 +es21200 +es21300 +es21400 +es21500 +es21600 +es21700 +es21800 +es21900</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21100" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -459,9 +458,9 @@
             <field name="name">es21100</field>
             <field name="description">I. Capital</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
             <field name="expression"> +es21110 +es21120</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21110" model="mis.report.kpi">
@@ -474,13 +473,13 @@
             <field name="expression">-bale[100%,101%,102%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21120" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -492,13 +491,13 @@
             <field name="expression">-bale[1030%,1040%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21200" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -510,13 +509,13 @@
             <field name="expression">-bale[110%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21300" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -528,13 +527,13 @@
             <field name="expression">-bale[112%,113%,114%,115%,119%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21400" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -543,18 +542,18 @@
             <field name="sequence">300</field>
             <field name="name">es21400</field>
             <field
-                name="description"
-            >IV. (Acciones y participaciones en patrimonio propias)</field>
+            name="description"
+        >IV. (Acciones y participaciones en patrimonio propias)</field>
             <field name="expression">-bale[108%,109%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21500" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -566,13 +565,13 @@
             <field name="expression">-bale[120%,121%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21600" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -584,13 +583,13 @@
             <field name="expression">-bale[118%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21700" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -602,9 +601,9 @@
             <field name="expression">-bale[129%,6%,7%]-balu[6%,7%]</field>
             <field name="auto_expand_accounts">False</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21800" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -616,13 +615,13 @@
             <field name="expression">-bale[557%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_21900" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -634,13 +633,13 @@
             <field name="expression">-bale[111%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_22000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -652,13 +651,13 @@
             <field name="expression">-bale[133%,1340%,137%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l2i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l2i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l2"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l2"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_23000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -667,18 +666,18 @@
             <field name="sequence">370</field>
             <field name="name">es23000</field>
             <field
-                name="description"
-            >A-3) Subvenciones, donaciones y legados recibidos</field>
+            name="description"
+        >A-3) Subvenciones, donaciones y legados recibidos</field>
             <field name="expression">-bale[130%,131%,132%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l2i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l2i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l2"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l2"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -688,12 +687,12 @@
             <field name="name">es31000</field>
             <field name="description">B) PASIVO NO CORRIENTE</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
             <field
-                name="expression"
-            > +es31100 +es31200 +es31300 +es31400 +es31500 +es31600 +es31700</field>
+            name="expression"
+        > +es31100 +es31200 +es31300 +es31400 +es31500 +es31600 +es31700</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31100" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -705,13 +704,13 @@
             <field name="expression">-bale[14%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31200" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -721,9 +720,9 @@
             <field name="name">es31200</field>
             <field name="description">II. Deudas a largo plazo</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
             <field name="expression"> +es31220 +es31230 +es31290</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31220" model="mis.report.kpi">
@@ -736,13 +735,13 @@
             <field name="expression">-bale[1605%,170%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31230" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -754,13 +753,13 @@
             <field name="expression">-bale[1625%,174%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31290" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -770,17 +769,17 @@
             <field name="name">es31290</field>
             <field name="description">3. Otras deudas a largo plazo</field>
             <field
-                name="expression"
-            >-bale[1615%,1635%,171%,172%,173%,175%,176%,177%,178%,179%,180%,185%,189%]</field>
+            name="expression"
+        >-bale[1615%,1635%,171%,172%,173%,175%,176%,177%,178%,179%,180%,185%,189%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31300" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -789,20 +788,20 @@
             <field name="sequence">440</field>
             <field name="name">es31300</field>
             <field
-                name="description"
-            >III. Deudas con empresas del grupo y asociadas a largo plazo</field>
+            name="description"
+        >III. Deudas con empresas del grupo y asociadas a largo plazo</field>
             <field
-                name="expression"
-            >-bale[1603%,1604%,1613%,1614%,1623%,1624%,1633%,1634%]</field>
+            name="expression"
+        >-bale[1603%,1604%,1613%,1614%,1623%,1624%,1633%,1634%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31400" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -814,13 +813,13 @@
             <field name="expression">-bale[479%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31500" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -832,13 +831,13 @@
             <field name="expression">-bale[181%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31600" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -850,13 +849,13 @@
             <field name="expression">-bale[31600%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_31700" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -865,18 +864,18 @@
             <field name="sequence">480</field>
             <field name="name">es31700</field>
             <field
-                name="description"
-            >VII. Deuda con características especiales a largo plazo</field>
+            name="description"
+        >VII. Deuda con características especiales a largo plazo</field>
             <field name="expression">-bale[15%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -886,12 +885,12 @@
             <field name="name">es32000</field>
             <field name="description">C) PASIVO CORRIENTE</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
             <field
-                name="expression"
-            > +es32100 +es32200 +es32300 +es32400 +es32500 +es32600 +es32700</field>
+            name="expression"
+        > +es32100 +es32200 +es32300 +es32400 +es32500 +es32600 +es32700</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32100" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -900,18 +899,18 @@
             <field name="sequence">500</field>
             <field name="name">es32100</field>
             <field
-                name="description"
-            >I. Pasivos vinculados con activos no corrientes mantenidos para la venta</field>
+            name="description"
+        >I. Pasivos vinculados con activos no corrientes mantenidos para la venta</field>
             <field name="expression">-bale[585%,586%,587%,588%,589%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32200" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -923,13 +922,13 @@
             <field name="expression">-bale[499%,529%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32300" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -939,9 +938,9 @@
             <field name="name">es32300</field>
             <field name="description">III. Deudas a corto plazo</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
             <field name="expression"> +es32320 +es32330 +es32390</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32320" model="mis.report.kpi">
@@ -954,13 +953,13 @@
             <field name="expression">-bale[5105%,520%,527%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32330" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -972,13 +971,13 @@
             <field name="expression">-bale[5125%,524%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32390" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -988,17 +987,17 @@
             <field name="name">es32390</field>
             <field name="description">3. Otras deudas a corto plazo</field>
             <field
-                name="expression"
-            >-bale[1034%,1044%,190%,192%,194%,500%,501%,505%,506%,509%,5115%,5135%,5145%,521%,522%,523%,525%,526%,528%,5530%,5532%,555%,5565%,5566%,5595%,5598%,560%,561%,569%] - nbale[551%] - nbale[5525%]</field>
+            name="expression"
+        >-bale[1034%,1044%,190%,192%,194%,500%,501%,505%,506%,509%,5115%,5135%,5145%,521%,522%,523%,525%,526%,528%,5530%,5532%,555%,5565%,5566%,5595%,5598%,560%,561%,569%] - nbale[551%] - nbale[5525%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32400" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1007,20 +1006,20 @@
             <field name="sequence">560</field>
             <field name="name">es32400</field>
             <field
-                name="description"
-            >IV. Deudas con empresas del grupo y asociadas a corto plazo</field>
+            name="description"
+        >IV. Deudas con empresas del grupo y asociadas a corto plazo</field>
             <field
-                name="expression"
-            >-bale[5103%,5104%,5113%,5114%,5123%,5124%,5133%,5134%,5143%,5144%,5563%,5564%] - nbale[5523%] - nbale[5524%]</field>
+            name="expression"
+        >-bale[5103%,5104%,5113%,5114%,5123%,5124%,5133%,5134%,5143%,5144%,5563%,5564%] - nbale[5523%] - nbale[5524%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32500" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1029,12 +1028,12 @@
             <field name="sequence">570</field>
             <field name="name">es32500</field>
             <field
-                name="description"
-            >V. Acreedores comerciales y otras cuentas a pagar</field>
+            name="description"
+        >V. Acreedores comerciales y otras cuentas a pagar</field>
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
             <field name="expression"> +es32580 +es32590</field>
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32580" model="mis.report.kpi">
@@ -1045,17 +1044,17 @@
             <field name="name">es32580</field>
             <field name="description">1. Proveedores</field>
             <field
-                name="expression"
-            >-bale[400%,401%,403%,404%,405%,406%] +es32581 +es32582</field>
+            name="expression"
+        >-bale[400%,401%,403%,404%,405%,406%] +es32581 +es32582</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32581" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1067,13 +1066,13 @@
             <field name="expression">-bale[32581%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32582" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1085,13 +1084,13 @@
             <field name="expression">-bale[32582%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l5"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32590" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1103,13 +1102,13 @@
             <field name="expression">-bale[41%,438%,465%,466%,475%,476%,477%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l4"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32600" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1121,13 +1120,13 @@
             <field name="expression">-bale[485%,568%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_32700" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1136,18 +1135,18 @@
             <field name="sequence">630</field>
             <field name="name">es32700</field>
             <field
-                name="description"
-            >VII. Deuda con características especiales a corto plazo</field>
+            name="description"
+        >VII. Deuda con características especiales a corto plazo</field>
             <field name="expression">-bale[502%,507%]</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l3"
+        />
         </record>
         <record id="mis_report_kpi_es_balance_abreviado_30000" model="mis.report.kpi">
             <field name="report_id" ref="mis_report_es_balance_abreviado" />
@@ -1159,13 +1158,12 @@
             <field name="expression">+es20000+es31000+es32000</field>
             <field name="auto_expand_accounts">True</field>
             <field
-                name="auto_expand_accounts_style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1i"
-            />
+            name="auto_expand_accounts_style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1i"
+        />
             <field
-                name="style_id"
-                ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
-            />
+            name="style_id"
+            ref="l10n_es_mis_report.mis_report_style_l10n_es_l1"
+        />
         </record>
-    </data>
 </odoo>
